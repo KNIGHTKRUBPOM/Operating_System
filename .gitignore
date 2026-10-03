@@ -1,0 +1,46 @@
+## Visual Studio and .NET Core Build Artifacts
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Cache and Preferences
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.DotSettings.user
+
+## VS Code & JetBrains Rider
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sln.iml
+
+## Archives (Keep repository lightweight)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+## OS Metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+## Preserve Project Dependency DLLs
+!**/DLL/*.dll
+!**/lib/*.dll
